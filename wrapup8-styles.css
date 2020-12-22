@@ -1,0 +1,48 @@
+body{
+    background-image: url(CHARCOAL\ OVERLAY.png);
+    background-size: 1300px;
+    background-color: #232323
+}
+
+.assets{
+    position: center;
+    justify-content: center;
+    border:none;
+    width: 700px;
+    padding-left: 280px;
+    padding-top: 75px;
+    z-index: 1
+}
+
+.instructions{
+    position: relative;
+    padding-left: 27%;
+}
+
+.secret-code{
+    position: relative;
+    padding-left: 38%;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.bag{
+    position: relative;
+    margin-left: 22%;
+    margin-top: 10px;
+}
+
+.blank{
+    z-index: 2;
+}
+
+.submit-btn{
+    height: 32px;
+    width: 120px;
+    margin-left: 575px;
+    margin-top: 5px;
+}
+
+.hide{
+    display: none;
+}
