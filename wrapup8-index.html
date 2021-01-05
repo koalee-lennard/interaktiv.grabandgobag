@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portal 8 Wrap Up</title>
   <link href="wrapup8-styles.css" rel="stylesheet">
-  <script defer src="grabbag-script.js"></script>
+  <script defer src="wrapup8-script.js"></script>
 </head>
   
 <body>
@@ -16,21 +16,32 @@
           <img src='bag.png' alt='Grab and Grab' id='bag' class='bag' height="352x" width="400px">
         </div>
       <div class="blanks">
-        <input type="text" class="blank_1" id="input1">
-        <input type="text" class="blank_2" id="input2">
-        <input type="text" class="blank_3" id="input3">
-        <input type="text" class="blank_4" id="input4">
-        <input type="text" class="blank_5" id="input5">
-        <input type="text" class="blank_6" id="input6">
-        <input type="text" class="blank_7" id="input7">
-        <input type="text" class="blank_8" id="input8">
+        <input type="text" class="blank_item blank_1" id="input1" placeholder="1"> </br>
+        <input type="text" class="blank_item blank_2" id="input2" placeholder="2"> </br>
+        <input type="text" class="blank_item blank_3" id="input3" placeholder="3"> </br>
+        <input type="text" class="blank_item blank_4" id="input4" placeholder="4"> </br>
+        <input type="text" class="blank_item blank_5" id="input5" placeholder="5"> </br>
+        <input type="text" class="blank_item blank_6" id="input6" placeholder="6"> </br>
+        <input type="text" class="blank_item blank_7" id="input7" placeholder="7"> </br>
+        <input type="text" class="blank_item blank_8" id="input8" placeholder="8"> </br>
       </div>
       <div class="bottom">
         <img src='secret-code.png' alt='Secret Code' id='secret-code' class='secret-code hide' height='24' width='180'>
       </br>
-        <input type="image" src="submit-button.png" name="submit-btn" id="submit-btn" class="submit-btn" onclick="submit001()">
+        <input type="image" src="submit-button.png" name="submit-btn" id="submit-btn" class="submit-btn" onclick="validateAnswer()">
       </div>
   </div>
+
+<!-- removed checkbox
+<input type="checkbox" name="checkvaliditems" id="checkvaliditems" onclick="validateAnswer()"/>
+-->
+
+<!-- TEST ELEMENT-->
+<h1 id="test"></h1>
+
+<!-- outputs if CORRECT or WRONG -->
+<br>
+<h1 id = "output"></h1>
 </body>
   
 </html>
